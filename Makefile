@@ -1,5 +1,5 @@
 IMG_NAME := imhotepio/java_hello
-IMG_TAG  := 0.0.1
+IMG_TAG  := sol
 
 help:
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
