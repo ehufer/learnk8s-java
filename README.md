@@ -6,7 +6,7 @@
 ![docker hub](https://img.shields.io/docker/automated/imhotepio/learnk8s-java.svg?style=flat-square)
 
 <br/>
-A sample spring-boot demo application to illustrate java based deployments.
+A sample Spring Boot demo application to illustrate java based deployments with Kubernetes
 
 ---
 ## Prerequisites
