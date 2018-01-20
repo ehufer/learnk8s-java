@@ -1,5 +1,8 @@
 # LearnK8s-Java
 
+![docker hub](https://img.shields.io/docker/pulls/imhotepio/learnk8s-java.svg?style=flat-square)
+![docker hub](https://img.shields.io/docker/stars/imhotepio/learnk8s-java.svg?style=flat-square)
+
 A sample spring-boot demo application to illustrate java based deployments.
 
 ## Prerequisites
