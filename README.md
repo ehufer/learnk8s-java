@@ -1,4 +1,4 @@
-# LearK8s Java App
+# LearnK8s-Java
 
 A sample spring-boot demo application to illustrate java based deployments.
 
