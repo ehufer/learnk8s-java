@@ -13,22 +13,24 @@ A sample spring-boot demo application to illustrate java based deployments.
 1. Build Jar file
 
     ```shell
-      make build
+    make build
     ```
+
 1. Build Docker Image
 
     ```shell
-      make img
+    make img
     ```
 1. Publish Image on DockerHub
 
     ```shell
-      make push
+    make push
     ```
+
 1. Provision the application
 
     ```shell
-      kubectl apply -f k8s/hello.yml
+    kubectl apply -f k8s/hello.yml
     ```
 
 1. Verify!
