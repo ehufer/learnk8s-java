@@ -10,5 +10,5 @@ public class HomeController {
         return "Greetings for K8s!";
     }
 
-    // CHANGEME - Add /heath endpoint
+    // CHANGE_ME - Add /heath endpoint
 }
