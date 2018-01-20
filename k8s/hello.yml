@@ -16,30 +16,22 @@ spec:
     spec:
       containers:
       - name:            hello
-        image:           imhotepio/java_hello:0.0.1
-        imagePullPolicy: Always
+        image:           CHANGE_ME
+        imagePullPolicy: CHANGE_ME
         resources:
           requests:
-            cpu:    500m
-            memory: 150Mi
+            cpu:    CHANGE_ME
+            memory: CHANGE_ME
           limits:
-            cpu:    1
-            memory: 200Mi
+            cpu:    CHANGE_ME
+            memory: CHANGE_ME
         livenessProbe:
-          httpGet:
-            path: /health
-            port: http
-          initialDelaySeconds: 5
-          periodSeconds:       10
+            CHANGE_ME
         readinessProbe:
-          httpGet:
-            path: /health
-            port: http
-          initialDelaySeconds: 20
-          periodSeconds:       5
+            CHHANGE_ME
         ports:
         - name:          http
-          containerPort: 8080
+          containerPort: CHANGE_ME
 
 ---
 # Service
@@ -52,5 +44,5 @@ spec:
   selector:
     app: hello
   ports:
-    - port:     8080
-      nodePort: 30800
+    - port:     CHANGE_ME
+      nodePort: CHANGE_ME

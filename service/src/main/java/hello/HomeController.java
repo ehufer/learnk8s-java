@@ -10,8 +10,5 @@ public class HomeController {
         return "Greetings for K8s!";
     }
 
-    @RequestMapping("/health")
-    public String health() {
-        return "OK";
-    }
+    // CHANGEME - Add /heath endpoint
 }

@@ -1,5 +1,5 @@
 FROM       openjdk:jre-alpine
-LABEL      maintainer="Fernand Galiana"
+LABEL      maintainer="CHANGE_ME"
 
 RUN        mkdir -p /app/jar
 WORKDIR    /app/jar
