@@ -37,6 +37,7 @@ A sample spring-boot demo application to illustrate java based deployments.
     curl -XGET http://MY_IP:30800/hello
     ```
 
+
 ---
 <img src="assets/imhoteplogo.png" width="32" height="auto"/> © 2018 Imhotep Software LLC.
 All materials licensed under [Apache v2.0](http://www.apache.org/licenses/LICENSE-2.0)
