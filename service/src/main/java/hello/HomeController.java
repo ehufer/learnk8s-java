@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/hello")
     public String index() {
-        return "Greetings for K8s!";
+        return "CHANGE_ME -- add a cool greeting!";
     }
 
     // CHANGE_ME - Add /heath endpoint
