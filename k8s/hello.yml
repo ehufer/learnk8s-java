@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name:            hello
-        image:           imhotepio/java_hello:demo
+        image:           imhotepio/learnk8s-java:demo
         imagePullPolicy: Always
         resources:
           requests:
