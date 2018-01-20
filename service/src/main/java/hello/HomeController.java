@@ -7,11 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/hello")
     public String index() {
-        return "Greetings for K8s!";
-    }
-
-    @RequestMapping("/health")
-    public String health() {
-        return "OK";
+        return "Greetings from K8s!";
     }
 }
