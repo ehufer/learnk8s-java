@@ -1,4 +1,4 @@
-IMG_NAME := imhotepio/java_hello
+IMG_NAME := imhotepio/learnk8s-java
 IMG_TAG  := sol
 
 help:
